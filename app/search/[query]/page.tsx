@@ -13,7 +13,7 @@ const Page = () => {
 
   useEffect(() => {
     func(query as string);
-  }, [func, query]);
+  }, [ query]);
 
   return (
     <>

@@ -11,7 +11,7 @@ const Page = () => {
   const { fetchData, fetchLoading, func } = UsegetAllProduct();
   useEffect(() => {
     func();
-  }, [func]);
+  }, []);
 
   return (
     <>
